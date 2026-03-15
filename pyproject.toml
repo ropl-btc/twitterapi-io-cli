@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twitterapi-io-cli"
+version = "0.1.0"
+description = "Read-only CLI for twitterapi.io tweets, users, timelines, and advanced search"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = { text = "MIT" }
+authors = [
+  { name = "twitterapi-io-cli contributors" }
+]
+
+[project.urls]
+Homepage = "https://github.com/ropl-btc/twitterapi-io-cli"
+Repository = "https://github.com/ropl-btc/twitterapi-io-cli"
+
+[project.scripts]
+twitterapi-io = "twitterapi_io.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
