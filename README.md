@@ -1,3 +1,5 @@
+> Update: new self-contained skill without the need for installing CLI is here: https://github.com/ropl-btc/agent-skills
+
 # twitterapi-io-cli
 
 Read-only CLI for `twitterapi.io`, built for **OpenClaw**, **Claude Code**, and other AI agents that need a simple, reusable interface for reading Twitter/X data.
